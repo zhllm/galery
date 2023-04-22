@@ -69,3 +69,18 @@
 .margright16 {
     margin-right: 16px;
 }
+
+.fullWidth {
+    flex: unset !important;
+    width: 100% !important;
+    margin: 0 0 16px !important;
+}
+
+.thridColumns {
+    width: 30%;
+    min-width: 30% !important;
+}
+
+.height156 {
+    height: 300px !important;
+}

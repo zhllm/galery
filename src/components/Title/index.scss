@@ -1,0 +1,35 @@
+@import "~taro-ui/dist/style/components/icon.scss";
+
+@import "~taro-ui/dist/style/components/nav-bar.scss";
+
+.titleContainer {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 32px;
+
+    .titleLeft {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .titleText {
+        font-size: 36px;
+        line-height: 36px;
+        margin-bottom: 2px;
+        font-weight: 500;
+    }
+
+    .subTitle {
+        font-size: 24px;
+    }
+
+    .titleRight {
+        margin-top: 20px;
+    }
+}
+
+.specialTitle {
+    background-color: linear-gradient(40deg, #ffa15b, #ff7954);
+}
